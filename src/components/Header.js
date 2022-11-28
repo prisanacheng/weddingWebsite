@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom"
+import { Countdown} from './'
 
 const Header = () => {
   return (
@@ -7,7 +8,7 @@ const Header = () => {
         <div className="mainInfo">
         <h1 id="mainHeadline">Patrick + Prisana</h1>
         <h3 id="mainDate">Saturday, November 11th, 2023</h3>
-        <h4>Countdown component will go here</h4>
+        <Countdown />
         </div>
       <header>
           <NavLink className="headerLinks" to="/">Home</NavLink>
