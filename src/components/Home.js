@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 function Home() {
   return (
     <div className="homeScreen">
-    <h1>Wedding Info will go here. This is the landing page
+    <h1>The Cliff House
     
     </h1>
     </div>

@@ -32,14 +32,14 @@ function Countdown() {
         }
     
         timerComponents.push(
-          <span>
+          <span className ="countdownText">
             {timeLeft[interval]} {interval}{" "}
           </span>
         );
       });
       return (
-        <div>
-          {timerComponents.length ? timerComponents : <span>Time's up!</span>}
+        <div className="countdown">
+          {timerComponents.length ? timerComponents : <span className = "countdownText">Time's up!</span>}
         </div>
       );
     }

@@ -9,7 +9,8 @@ import {
     Schedule,
     Squad,
     Travel,
-    Rsvp
+    Rsvp,
+    Footer
 } from './'
 
 
@@ -28,6 +29,7 @@ return (
         <Route path="/Gifting" element={<Gifting />} />
         <Route path="/RSVP" element={<Rsvp />} />
         </Routes>
+        <Footer />
     </div>
     )
 }

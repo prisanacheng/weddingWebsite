@@ -1,13 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom"
-import { Countdown} from './'
+import {Countdown} from './'
 
 const Header = () => {
   return (
     <div>
         <div className="mainInfo">
         <h1 id="mainHeadline">Patrick + Prisana</h1>
-        <h3 id="mainDate">Saturday, November 11th, 2023</h3>
+        <h3 className="mainDate">Saturday, November 11th, 2023</h3>
         <Countdown />
         </div>
       <header>
@@ -19,8 +19,6 @@ const Header = () => {
           <NavLink className="headerLinks" to="/Faq">FAQ</NavLink>
           <NavLink className="headerLinks" to="/Gifting">Gifting</NavLink>
           <NavLink className="headerLinks" to="/RSVP">RSVP</NavLink>
-        {/* Links go here: Home, Photos, Wedding Party, Schedule, Travel, FAQ,
-        Registry, RSVP */}
       </header>
     </div>
   );
