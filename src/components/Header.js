@@ -4,9 +4,11 @@ import { NavLink } from "react-router-dom"
 const Header = () => {
   return (
     <div>
-        <h1 id="mainHeadline">P<sup>2</sup></h1>
-        <h3>Saturday, November 11th, 2023</h3>
+        <div className="mainInfo">
+        <h1 id="mainHeadline">Patrick + Prisana</h1>
+        <h3 id="mainDate">Saturday, November 11th, 2023</h3>
         <h4>Countdown component will go here</h4>
+        </div>
       <header>
           <NavLink className="headerLinks" to="/">Home</NavLink>
           <NavLink className="headerLinks" to="/Photos">Photos</NavLink>

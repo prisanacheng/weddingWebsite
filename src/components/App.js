@@ -12,6 +12,7 @@ import {
     Rsvp
 } from './'
 
+
 const App = () => {
 
 return (
@@ -24,7 +25,6 @@ return (
         <Route path="/Schedule" element={<Schedule />} />
         <Route path="/Travel" element={<Travel />} />
         <Route path="/FAQ" element={<Faq />} />
-        <Route path="/Gifting" element={<Gifting />} />
         <Route path="/Gifting" element={<Gifting />} />
         <Route path="/RSVP" element={<Rsvp />} />
         </Routes>

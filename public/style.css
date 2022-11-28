@@ -1,0 +1,54 @@
+/* Barlow Condensed */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+/* Yeseva One */
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+/* Work Sans */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+
+:root {
+  --neutral: #f5f1ea;
+  --moss: #c6b777;
+  --hover: #c4bc99;
+}
+
+header {
+  background-color: var(--moss);
+  padding: 25px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.headerLinks {
+ padding: 25px;
+ font-family: Work Sans;
+ text-decoration: none;
+ color: black;
+ font-size: 25px;
+}
+
+.headerLinks:hover {
+  background-color: var(--hover);
+  border-radius: 25px;
+}
+
+.mainInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#mainHeadline {
+  font-family: Yeseva One;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  margin-bottom: 0%;
+  font-size: 70px;
+}
+
+#mainDate {
+  font-family: Work Sans;
+  font-size: 30px;
+}
+
+  
