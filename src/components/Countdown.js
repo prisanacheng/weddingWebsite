@@ -8,7 +8,7 @@ function Countdown() {
     
         if (difference > 0) {
           timeLeft = {
-            "days to go!": Math.floor(difference / (1000 * 60 * 60 * 24))
+            "days until 'I do'": Math.floor(difference / (1000 * 60 * 60 * 24))
           };
         }
     
@@ -39,7 +39,7 @@ function Countdown() {
       });
       return (
         <div className="countdown">
-          {timerComponents.length ? timerComponents : <span className = "countdownText">Time's up!</span>}
+          {timerComponents.length ? timerComponents : <span className = "countdownText">Time to get married!</span>}
         </div>
       );
     }

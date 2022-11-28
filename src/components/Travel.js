@@ -5,14 +5,13 @@ function Travel() {
   return (
     <div>
        <div> 
-         <h1>Airports</h1>
+         <h1 className="pageTitles">Airports</h1>
          <p>DFW</p>
          <p>Lovefield</p>
        </div>
        <div> 
-         <h1>Hotels</h1>
+         <h1 className="pageTitles">Hotels</h1>
          <p>CANVAS</p>
-         <p>Hyatt Regency Dallas</p>
          <p>The Kimpton Pittman</p>
          <p>The Statler Dallas</p>
          <p>Hyatt Regency Dallas</p>
